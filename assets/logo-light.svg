@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 96" fill="none">
+  <defs>
+    <filter id="glo" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+    <filter id="glo2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+  </defs>
+
+  
+  <path d="M 4,90 C 4,74 8,60 20,50 C 32,40 40,48 52,35 C 64,22 78,16 92,13 C 98,11 104,15 108,20" stroke="#00C2FF" stroke-width="2.8" stroke-linecap="round" filter="url(#glo)"></path>
+
+  
+  <path d="M 8,96 C 16,88 22,82 32,72 C 42,62 48,64 60,57 C 72,50 82,46 96,42" stroke="#00C2FF" stroke-width="1.5" stroke-linecap="round" opacity="0.48"></path>
+
+  
+  <path d="M 90,22 C 92,10 100,6 108,10 C 114,14 112,20 108,20" stroke="#00C2FF" stroke-width="1.2" stroke-linecap="round" opacity="0.38"></path>
+
+  
+  <circle cx="4" cy="90" r="3.8" fill="#00C2FF" filter="url(#glo2)"></circle>
+  <circle cx="20" cy="50" r="5" fill="#00C2FF" filter="url(#glo)"></circle>
+  <circle cx="52" cy="35" r="8" fill="#00C2FF" filter="url(#glo)"></circle>
+  <circle cx="92" cy="13" r="5" fill="#00C2FF" filter="url(#glo)"></circle>
+  <circle cx="108" cy="20" r="7" fill="#00C2FF" filter="url(#glo)"></circle>
+
+  
+  <circle cx="8" cy="96" r="3.5" fill="#00C2FF" opacity="0.8" filter="url(#glo2)"></circle>
+  <circle cx="32" cy="72" r="5" fill="#00C2FF" opacity="0.75" filter="url(#glo2)"></circle>
+  <circle cx="60" cy="57" r="4" fill="#00C2FF" opacity="0.7" filter="url(#glo2)"></circle>
+  <circle cx="96" cy="42" r="5" fill="#00C2FF" opacity="0.75" filter="url(#glo2)"></circle>
+
+  
+  <circle cx="24" cy="36" r="2.4" fill="#00C2FF" opacity="0.55"></circle>
+  <circle cx="38" cy="28" r="2.2" fill="#00C2FF" opacity="0.5"></circle>
+  <circle cx="46" cy="48" r="2.2" fill="#00C2FF" opacity="0.48"></circle>
+  <circle cx="66" cy="48" r="2.5" fill="#00C2FF" opacity="0.52"></circle>
+  <circle cx="72" cy="66" r="1.8" fill="#00C2FF" opacity="0.38"></circle>
+  <circle cx="78" cy="32" r="2.2" fill="#00C2FF" opacity="0.5"></circle>
+  <circle cx="86" cy="8" r="2.4" fill="#00C2FF" opacity="0.55"></circle>
+  <circle cx="100" cy="6" r="2" fill="#00C2FF" opacity="0.45"></circle>
+
+  
+  <line x1="134" y1="14" x2="134" y2="82" stroke="white" stroke-opacity="0.18" stroke-width="1"></line>
+
+  
+  <text x="150" y="58" font-family="Syne, sans-serif" font-weight="400" font-size="44" letter-spacing="-0.5" fill="white">Dolphin</text>
+  <text x="152" y="77" font-family="Syne, sans-serif" font-weight="300" font-size="14" letter-spacing="9" fill="#00C2FF" opacity="0.8">AI</text>
+</svg>
